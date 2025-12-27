@@ -1,0 +1,81 @@
+﻿body {
+    font-family: 'Inter', sans-serif;
+    color: #222;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+    padding: 90px 0;
+}
+
+    .hero h1 {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+.hero-list {
+    list-style: none;
+    padding: 0;
+}
+
+    .hero-list li {
+        margin-bottom: 8px;
+    }
+
+.glass-box {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 18px;
+}
+
+.stats {
+    padding: 60px 0;
+    background: #fff;
+}
+
+    .stats h2 {
+        font-weight: 900;
+    }
+
+.section {
+    padding: 80px 0;
+}
+
+.portfolio-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+    .portfolio-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    .portfolio-card h5 {
+        margin-top: 15px;
+        font-weight: 700;
+    }
+
+    .portfolio-card p {
+        font-size: 14px;
+        color: #555;
+    }
+
+.cta {
+    background: #111;
+    color: white;
+    padding: 70px 0;
+}
+
+footer {
+    background: #000;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+}
